@@ -1,8 +1,7 @@
 """Collector"""
-from . import _hello
-from . import _world
+from . import _words
 
 
 def collect() -> list[str]:
     """Collects the parts of the phrase"""
-    return [_hello.main(), _world.main()]
+    return [_words.hello(), _words.world()]

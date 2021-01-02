@@ -7,20 +7,8 @@ function, as they all get exercised.
 """
 from . import _collector
 from . import _combiner
-from . import _hello
 from . import _runner
 from . import _phraser
-from . import _world
-
-
-def test_hello():
-    """Asserts that the _hello module returns the correct string"""
-    assert _hello.main() == "hello"
-
-
-def test_world():
-    """Asserts that the _world module returns the correct string"""
-    assert _world.main() == "world"
 
 
 def test_collector():
